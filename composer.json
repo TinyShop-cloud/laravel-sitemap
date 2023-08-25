@@ -16,15 +16,15 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^8.0|^9.0",
+        "php": "^8.1",
+        "illuminate/support": "^9.0|^10.0",
         "nesbot/carbon": "^2.0",
         "spatie/laravel-package-tools": "^1.5"
     },
     "require-dev": {
         "mockery/mockery": "^1.4",
-        "orchestra/testbench": "^6.23|^7.0",
-        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^7.0|^8.0",
+        "phpunit/phpunit": "^9.5|^10.0",
         "spatie/phpunit-snapshot-assertions": "^4.0",
         "spatie/temporary-directory": "^2.0"
     },
