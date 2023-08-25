@@ -2,14 +2,8 @@
 
 namespace Spatie\Sitemap;
 
-use GuzzleHttp\Psr7\Uri;
 use Illuminate\Support\Collection;
 use Psr\Http\Message\ResponseInterface;
-use Spatie\Browsershot\Browsershot;
-use Spatie\Crawler\Crawler;
-use Spatie\Crawler\CrawlProfiles\CrawlProfile;
-use Spatie\Sitemap\Crawler\Observer;
-use Spatie\Sitemap\Crawler\Profile;
 use Spatie\Sitemap\Tags\Url;
 
 class SitemapGenerator
